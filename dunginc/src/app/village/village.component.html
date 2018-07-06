@@ -1,0 +1,7 @@
+<mat-card class="village-container">
+  <mat-card-title>{{roamTitle}}</mat-card-title>
+  <mat-card-content>{{roamFlair}}</mat-card-content>
+  <mat-card-actions align="end">
+    <button *ngFor="let action of actions" mat-stroked-button (click)="action.action()">{{action.label}}</button>
+  </mat-card-actions>
+</mat-card>

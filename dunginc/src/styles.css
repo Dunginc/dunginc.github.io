@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/purple-green.css";
+@import "~normalize.css/normalize.css";
+
+html {
+    background-color: #9858b3;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.mat-card-actions button {
+    margin-left: 10px;
+}
